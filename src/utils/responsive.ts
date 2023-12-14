@@ -19,3 +19,6 @@ export const scale = (value: Optional, byWidth?: Optional) => {
 
   return baseRatio * value;
 };
+
+export const SCREEN_HEIGHT = screenHeight;
+export const SCREEN_WIDTH = screenWidth;
